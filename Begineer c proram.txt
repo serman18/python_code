@@ -1,0 +1,99 @@
+1st program
+-----------
+name = "sermanraja"
+for I in range(0,6)
+print(name)
+__________________________________________
+
+2nd program
+-----------
+a = int (input ("Enter the value of a:"))
+b = int (input ("Enter the value of b:"))
+sum=a+b
+print (sum)
+__________________________________________
+
+3rd program
+-----------
+num = int(input("Enter the number:"))
+if(num%2==0):
+  print("number is even")
+else:
+   print("odd")
+___________________________________________
+
+4th program
+-----------
+a=int(input())
+b=int(input())
+c=int(input())
+if(a>b and a>c):
+   print(a)
+elif(b>a and b>c):
+   print(b)
+else:
+   print(c)
+_____________________________________________
+
+5th program
+-----------
+n = int(input("Enter a number: "))
+print(f"Multiplication Table of {n}")
+for i in range(1, 11):
+    print(f"{n} x {i} = {n * i}")
+_______________________________________________
+
+6th program
+-----------
+num = int(input("Enter a number: "))
+fact = 1
+for i in range(1, num + 1):
+    fact *= i
+print("Factorial of num =", fact)
+_______________________________________________
+
+7th program
+-----------
+x = input("Enter a string: ")
+rev = x[::-1]
+print("Reversed string:", rev)
+_______________________________________________
+
+8th program
+-----------
+a = input("Enter a string: ")
+if a == a[::-1]:
+    print("It is a palindrome")
+else:
+    print("It is not a palindrome")
+_________________________________________________
+
+9th program
+-----------
+s = input("Enter a string: ").lower()
+vowels = "aeiou"
+v = c = 0
+for ch in s:
+    if ch.isalpha():
+        if ch in vowels:
+            v += 1
+        else:
+            c += 1
+print("Vowels:", v)
+print("Consonants:", c)
+_____________________________________________________
+
+10th program
+------------
+a = 0
+b = 1
+for i in range(10):
+    print(a)
+    temp = a
+    a = b 
+__________________________________________________________________________________________________________________
+       
+
+
+
+
